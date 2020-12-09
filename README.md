@@ -4,6 +4,12 @@
 
 在单台主机节点上(only one node install)一键安装Greenplum6分布式数据库。
 
+托管地址：
+
+- Github: https://github.com/tangyibo/greenplum_singlenode
+
+- Gitee: https://gitee.com/inrgihc/greenplum_singlenode
+
 ## 二、教程
 
 ### 1、制作BIN包
