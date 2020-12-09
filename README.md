@@ -9,9 +9,12 @@
 ### 1、制作BIN包
 
 ```
+git clone https://github.com/tangyibo/greenplum_singlenode.git
 cd greenplum_onlyone/
 make clean && make build
 ls bin/
+greenplum6-centos7-singlenode_v1.0.bin
+
 ```
 
 ## 2、安装
