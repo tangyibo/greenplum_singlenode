@@ -196,7 +196,7 @@ function gpdb_install(){
     log "$INFO_MSG Start to install greenplum for single node."
 
     # 安装依赖包
-    package=(epel-release)
+    package=(epel-release ntpdate)
     for p in ${package[@]}; do
         package_install $p
     done
