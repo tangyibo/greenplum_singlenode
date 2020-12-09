@@ -206,7 +206,6 @@ function gpdb_install(){
     /usr/sbin/useradd gpadmin -g gpadmin
     usermod -G gpadmin gpadmin
     echo "${PASSWORD}" | passwd --stdin gpadmin
-    echo "root:${PASSWORD}" | chpasswd
 
     # ssh配置
     sed -i 's/PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
