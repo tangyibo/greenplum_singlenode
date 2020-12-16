@@ -10,6 +10,8 @@
 
 - Gitee: https://gitee.com/inrgihc/greenplum_singlenode
 
+注：支持多个物理主机或虚拟主机的安装，不支持容器（docker/podman）等环境的安装
+
 ## 二、教程
 
 ### 1、制作BIN包
